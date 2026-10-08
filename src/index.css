@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #FAF8F5;
+  --color-cream-50: #FBF9F6;
+  --color-cream-100: #F5F3F0;
+  --color-cream-200: #EFEEEB;
+  --color-cream-300: #EAE8E5;
+  --color-cream-400: #E4E2DF;
+
+  --color-carbon: #111111;
+  --color-carbon-900: #0D0D0D;
+  --color-carbon-800: #1C1B1B;
+  --color-carbon-700: #222222;
+  --color-carbon-600: #30312F;
+
+  --color-ginger: #DDA24C;
+  --color-ginger-light: #F3C079;
+  --color-ginger-dark: #B88232;
+
+  --color-blush: #F4D9D2;
+  --color-blush-light: #FDF5F7;
+  --color-blush-dark: #E2BCB3;
+
+  --color-border-hairline: #E5E0DA;
+  --color-border-hairlineDark: #222222;
+
+  --color-mint-bg: #EAF7F2;
+  --color-mint-text: #1E6548;
+  --color-mint-border: #C1E7D7;
+
+  --color-shoppay: #5A31F4;
+
+  --font-serif: "Cormorant Garamond", Didot, "Bodoni MT", serif;
+  --font-mono: "Space Mono", monospace;
+  --font-sans: "DM Sans", system-ui, sans-serif;
+
+  --letter-spacing-wider-label: 0.12em;
+  --letter-spacing-widest-spec: 0.18em;
+}
+
+body {
+  background-color: #FAF8F5;
+  color: #111111;
+  font-family: 'DM Sans', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: #F4D9D2;
+  color: #111111;
+}
+
+/* Custom minimal scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #E5E0DA;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #111111;
+}
